@@ -1,4 +1,4 @@
-const API_USERS = "http://localhost:8000/api/users";
+const API_USERS = "https://jwtback-production.up.railway.app/api/users";
 
 export async function createUser(newUser) {
   const response = await fetch(`${API_USERS}/register`, {
